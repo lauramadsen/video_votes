@@ -4,7 +4,8 @@
   "description": "simple api to serve videos and handle user voting",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+      "test": "test",
+      "start": "node app.js"
   },
   "repository": {
     "type": "git",
