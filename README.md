@@ -13,7 +13,9 @@ npm install
 
 Start your MongoDB:
 
-mongod --dbpath=/data --port 27017
+cd video_votes
+mkdir data
+mongod --dbpath=data --port 27017
 
 And run the application:
 
