@@ -1,0 +1,27 @@
+{
+  "name": "video_votes",
+  "version": "1.0.0",
+  "description": "simple api to serve videos and handle user voting",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lauramadsen/video_votes.git"
+  },
+  "keywords": [
+    "expressjs",
+    "mongodb"
+  ],
+  "author": "Laura Wright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lauramadsen/video_votes/issues"
+  },
+  "homepage": "https://github.com/lauramadsen/video_votes#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.1.19"
+  }
+}
