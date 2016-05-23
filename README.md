@@ -1,22 +1,27 @@
-Up-to-date versions of Node (with npm) and MongoDB are required
+##Up-to-date versions of Node (with npm) and MongoDB are required
 
-Lacking any of those?  On Mac, run:
+##Lacking any of those?  On Mac, run:
 
-brew update
-brew install node
-brew install mongodb
+`brew update`
 
-Get node dependencies:
+`brew install node`
 
-cd video_votes
-npm install
+`brew install mongodb`
 
-Start your MongoDB:
+##Get node dependencies:
 
-cd video_votes
-mkdir data
-mongod --dbpath=data --port 27017
+`cd video_votes`
 
-And run the application:
+`npm install`
 
-npm start
+##Start your MongoDB:
+
+`cd video_votes`
+
+`mkdir data`
+
+`mongod --dbpath=data --port 27017`
+
+##And run the application:
+
+`npm start`
